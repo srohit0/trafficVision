@@ -18,7 +18,8 @@ This app detects cars/buses in a live traffic using deep learning network Yolo-V
 
 Demo uses a recorded video in the media dir
 ```
-% ./main.py('Loaded', 'yoloOpenVX')
+% ./main.py
+('Loaded', 'yoloOpenVX')
 OK: loaded 22 kernels from libvx_nn.so
 OK: OpenVX using GPU device#0 (gfx900) [OpenCL 1.2 ] [SvmCaps 0 1]
 OK: annCreateInference: successful
@@ -39,7 +40,7 @@ OK: OpenCL buffer usage: 87771380, 46/46
 ### Prerequisites 
 
 1. GPU: Radeon Instinct or Vega Family of Products with [ROCm](https://rocm.github.io/ROCmInstall.html) and OpenCL development kit
-1. [Install AMD's MIVisionX toolkit] (https://gpuopen-professionalcompute-libraries.github.io/MIVisionX/) : AMD's MIVisionX toolkit is a comprehensive computer vision and machine intelligence libraries, utilities
+1. [Install AMD's MIVisionX toolkit](https://gpuopen-professionalcompute-libraries.github.io/MIVisionX/) : AMD's MIVisionX toolkit is a comprehensive computer vision and machine intelligence libraries, utilities
 1. [CMake](http://cmake.org/download/)
 1. [Google's Protobuf](https://github.com/google/protobuf)
 
