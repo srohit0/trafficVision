@@ -5,9 +5,9 @@ This app detects cars/buses in a live traffic using deep learning network Yolo-V
 
 ## Features
 1. Detection of vechicle with bounding box
-1. Detection of vehicle direction of travel
+1. Detection of vehicle direction ((upward, downward) of travel 
 1. Prediction the speed of the vehicle
-1. Prediction of approximate vehicle size
+1. Prediction of approximate vehicle type: bus/car.
 
 ## How to Run
 
@@ -47,8 +47,29 @@ Here is the [link to YouTube video](https://youtu.be/YASOovwds_A) detecting cars
 
 ### Steps
 
-> git clone https://github.com/srohit0/trafficVision
-> 
+> % git clone https://github.com/srohit0/trafficVision
+
+
+**_1. Model Conversion_**
+
+```
+% cd trafficVision/model
+% ./prepareModel
+```
+
+**_2. Python Package yoloOpenVX Compilation_**
+
+```
+% cd trafficVision/yoloOpenVX
+% make
+```
+
+**_3. Test App_**
+
+```
+% make test
+```
+It'll display detection all videos in media/ dir.
 
 ## Design
 
@@ -58,16 +79,13 @@ Here is the [link to YouTube video](https://youtu.be/YASOovwds_A) detecting cars
 ### Modules
 <img src="media/speed_detection_modules.jpg" width="600">
 
-### Dependencies
-
 ## Development
 
 ### Model Conversion
 <img src="media/speed_detection_model_conversion.jpg" width=680>
 
 
-
-
+### Infrastructure
 <img src="media/speed_detection_infrastructure.jpg" width=480>
 
 
