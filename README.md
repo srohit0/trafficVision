@@ -47,17 +47,19 @@ Here is the [link to YouTube video](https://youtu.be/YASOovwds_A) detecting cars
 
 ### Steps
 
-> % git clone https://github.com/srohit0/trafficVision
+```
+% git clone https://github.com/srohit0/trafficVision
+```
 
 
 **_1. Model Conversion_**
-
+This steps downloads yolov2-tiny for voc dataset and converts to MIVision's openVX model 
 ```
 % cd trafficVision/model
 % ./prepareModel
 ```
 
-**_2. Python Package yoloOpenVX Compilation_**
+**_2. MIVision Model Compilation_**
 
 ```
 % cd trafficVision/yoloOpenVX
@@ -72,20 +74,24 @@ Here is the [link to YouTube video](https://youtu.be/YASOovwds_A) detecting cars
 It'll display detection all videos in media/ dir.
 
 ## Design
+This section is for developers, who would like to port model from other frameworks including [tensorflow](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md), [caffe](http://caffe.berkeleyvision.org/model_zoo.html) or [pytorch](https://pytorch.org/).
 
-### High Level
+### High Level Design
 <img src="media/speed_detection_top_level_arch.jpg" width="600">
 
-### Modules
+### Lower Level Modules
+These lower level modules can be found as python modules (files) or packages (directories) in this repository.
 <img src="media/speed_detection_modules.jpg" width="600">
 
 ## Development
 
 ### Model Conversion
+Follow model conversion process similar to the one described below.
 <img src="media/speed_detection_model_conversion.jpg" width=680>
 
 
 ### Infrastructure
+Make sure you've infrastructure pre-requisites installed before you start porting neural network model for inferencing.
 <img src="media/speed_detection_infrastructure.jpg" width=480>
 
 
