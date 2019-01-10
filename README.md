@@ -1,7 +1,7 @@
 # Traffic Vision
 This app detects cars/buses in a live traffic using deep learning network Yolo-V2. It has been optimized for AMD-GPUs using MIVisionX.
 
-![Traffic Vision Animation](media/traffic_viosion.gif)
+[![Traffic Vision Animation](media/traffic_viosion.gif)](https://youtu.be/YASOovwds_A)
 
 ## Features
 1. Detection of vechicle with bounding box
@@ -27,6 +27,7 @@ Processed a total of  102 frames
 OK: OpenCL buffer usage: 87771380, 46/46
 %
 ```
+Here is the [link to YouTube video](https://youtu.be/YASOovwds_A) detecting cars, bounding boxes, car speed, and confidence scores.
 ### Other Examples
 
 **recorded video**
