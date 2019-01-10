@@ -1,1 +1,8 @@
-placeholder for yolo, openVX and other intermediate models.
+
+## Model Conversion
+```
+% ./prepareModel.sh
+```
+
+
+<img src="../media/speed_detection_model_conversion.jpg" width=680>
