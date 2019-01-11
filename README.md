@@ -1,13 +1,13 @@
 # Traffic Vision
-This app detects cars/buses in a live traffic using deep learning network [Yolo-V2](https://pjreddie.com/darknet/yolov2). This model is  optimized for inferencing performnce on AMD-GPUs using MIVisionX.
+This app detects cars/buses in a live traffic using deep learning network [Yolo-V2](https://pjreddie.com/darknet/yolov2). The model unsed in the app is optimized for inferencing performnce on AMD-GPUs using [MIVisionX toolkit](https://gpuopen-professionalcompute-libraries.github.io/MIVisionX/).
 
 [![Traffic Vision Animation](media/traffic_viosion.gif)](https://youtu.be/YASOovwds_A)
 
 ## Features
-1. Detection of vechicle with bounding box
-1. Detection of vehicle direction ((upward, downward) of travel 
-1. Prediction the speed of the vehicle
-1. Prediction of approximate vehicle type: bus/car.
+1. Vehicle detection with bounding box
+1. Vehicle direction ((upward, downward) detection 
+1. Vehicle speed estimation
+1. Vehicle type: bus/car.
 
 ## How to Run
 
@@ -16,7 +16,7 @@ This app detects cars/buses in a live traffic using deep learning network [Yolo-
 
 ### Demo
 
-Demo uses a recorded video in the media dir
+App starts the demo, if no other option is provided. Demo uses a video stored in the [media/](./media) dir.
 ```
 % ./main.py
 ('Loaded', 'yoloOpenVX')
