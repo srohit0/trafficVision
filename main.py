@@ -11,17 +11,6 @@
 #
 # The above copyright notice and this permission notice shall be included in
 
-
-# Description:
-#      inference the yolo v2 model in openVX format.
-#
-import numpy as np
-import cv2
-
-import yoloOpenVX
-import speedEstimator
-
-class yoloInferenceNet:
 # Description:
 #      Detect Vehicle using AMD MIVisionX Inferencing Engine.
 #

@@ -11,18 +11,6 @@
 #
 # The above copyright notice and this permission notice shall be included in
 
-
-# Description:
-#      inference the yolo v2 model in openVX format.
-#
-import numpy as np
-import cv2
-
-import yoloOpenVX
-import speedEstimator
-
-class yoloInferenceNet:
-
 import sys, os
 import cv2
 
