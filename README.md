@@ -1,5 +1,5 @@
 # Traffic Vision
-This app detects cars/buses in a live traffic using deep learning network Yolo-V2. It has been optimized for AMD-GPUs using MIVisionX.
+This app detects cars/buses in a live traffic using deep learning network [Yolo-V2](https://pjreddie.com/darknet/yolov2). This model is  optimized for inferencing performnce on AMD-GPUs using MIVisionX.
 
 [![Traffic Vision Animation](media/traffic_viosion.gif)](https://youtu.be/YASOovwds_A)
 
