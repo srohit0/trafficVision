@@ -59,7 +59,7 @@ This steps downloads yolov2-tiny for voc dataset and converts to MIVision's open
 % cd trafficVision/model
 % bash ./prepareModel.sh
 ```
-More details on the conversion in the [models/](./models) dir.
+More details on the pre-requisite (like [caffe](http://caffe.berkeleyvision.org/installation.html)) of the model conversion in the [models/](./models) dir.
 
 **_2. MIVision Model Compilation_**
 
