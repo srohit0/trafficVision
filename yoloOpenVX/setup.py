@@ -23,9 +23,9 @@ from setuptools import setup
 setup(name='yoloOpenVX',
       version='0.1',
       description='OpenVX model for the yolo v2 network',
-      url='http://github.com/srohit0/yolov2openVX',
+      url='http://github.com/srohit0/trafficVision',
       author='Rohit Sharma',
       author_email='rohit@parip@th.com',
       license='MIT',
-      packages=['yolov2'],
+      packages=['yoloOpenVX'],
       zip_safe=False)
