@@ -15,7 +15,7 @@
 1. [AMD's MIVisionX toolkit](https://gpuopen-professionalcompute-libraries.github.io/MIVisionX/)
 
 ## Model Conversion Steps
-These steps are included in prepareModel.sh. Below are the steps:
+These steps are included in prepareModel.sh. Repeated here for clarification:
 
 ```
 ###################################################
