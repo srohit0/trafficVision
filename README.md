@@ -94,6 +94,14 @@ Follow model conversion process similar to the one described below.
 Make sure you've infrastructure pre-requisites installed before you start porting neural network model for inferencing.
 <img src="media/speed_detection_infrastructure.jpg" width=480>
 
+## Developed and Tested on
+1. Hardware = AMD Ryzen Threadripper 1900X 8-Core Processor
+1. Accelerator = Radeon Instinct MI25 Accelerator 
+1. OS = Ubuntu 16.04 LTS
+1. Python 2.7
+1. MIVisionX 1.7.0
+1. AMD OpenVX 0.9.9
+1. GCC 5.4
 
 ## Credit
 * **Schmitt, Mike**
