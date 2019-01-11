@@ -42,7 +42,7 @@ Here is the [link to YouTube video](https://youtu.be/YASOovwds_A) detecting cars
 
 1. GPU: Radeon Instinct or Vega Family of Products with [ROCm](https://rocm.github.io/ROCmInstall.html) and OpenCL development kit
 1. [Install AMD's MIVisionX toolkit](https://gpuopen-professionalcompute-libraries.github.io/MIVisionX/) : AMD's MIVisionX toolkit is a comprehensive computer vision and machine intelligence libraries, utilities
-1. [CMake](http://cmake.org/download/)
+1. [CMake](http://cmake.org/download/), [Caffe](http://caffe.berkeleyvision.org/installation.html)
 1. [Google's Protobuf](https://github.com/google/protobuf)
 
 ### Steps
