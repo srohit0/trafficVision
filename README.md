@@ -110,3 +110,9 @@ Make sure you've infrastructure pre-requisites installed before you start portin
 * **Schmitt, Mike**
 * **Nagesh gowda, Kiriti**
 * **Rawther, Rajy**
+
+## References
+1. [yoloV2 paper](https://arxiv.org/pdf/1612.08242.pdf)
+1. [Tiny Yolo aka Darknet reference network](https://pjreddie.com/darknet/imagenet/#reference)
+1. [MiVisionX Setup](https://github.com/kiritigowda/MIVisionX-setup)
+1. [AMD OpenVX](https://gpuopen.com/compute-product/amd-openvx/)
