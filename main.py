@@ -48,7 +48,6 @@ if __name__ == '__main__' :
 
     yoloNet = inference.yoloInferenceNet(yoloOpenVX.weights);
     cv2.namedWindow(window_title, cv2.WINDOW_GUI_EXPANDED)
-    cv2.resizeWindow(window_title, yoloNet.wi, yoloNet.hi)
     cap = cv2.VideoCapture(feed)
 
     if ( cap.isOpened() == False ):
@@ -56,9 +55,13 @@ if __name__ == '__main__' :
 
     iframe = 0;
     while(cap.isOpened()):
+
         ret, frame    = cap.read()
         if ret == False:
             break;
+
+         if ( iframe == 0 ):
+             cv2.resizeWindow(window_title, frame.shape[1], frame.shape[0])
 
         iframe = iframe + 1
         resized_frame = yoloNet.yoloInput(frame); # image to display
