@@ -77,7 +77,7 @@ More details on the conversion in the [models/](./models) dir.
 It'll display detection all videos in media/ dir.
 
 ## Design
-This section is for developers, who would like to port model from other frameworks including [tensorflow](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md), [caffe](http://caffe.berkeleyvision.org/model_zoo.html) or [pytorch](https://pytorch.org/).
+This section is a guide for developers, who would like to port vision and object detections models to AMD's Radeon GPUs from other frameworks including [tensorflow](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md), [caffe](http://caffe.berkeleyvision.org/model_zoo.html) or [pytorch](https://pytorch.org/).
 
 ### High Level Design
 <img src="media/speed_detection_top_level_arch.jpg" width="600">
