@@ -53,11 +53,13 @@ Here is the [link to YouTube video](https://youtu.be/YASOovwds_A) detecting cars
 
 
 **_1. Model Conversion_**
-This steps downloads yolov2-tiny for voc dataset and converts to MIVision's openVX model 
+
+This steps downloads yolov2-tiny for voc dataset and converts to MIVision's openVX model. 
 ```
 % cd trafficVision/model
 % bash ./prepareModel.sh
 ```
+More details on the conversion in the [models/](./models) dir.
 
 **_2. MIVision Model Compilation_**
 
@@ -69,6 +71,7 @@ This steps downloads yolov2-tiny for voc dataset and converts to MIVision's open
 **_3. Test App_**
 
 ```
+% cd trafficVision
 % make test
 ```
 It'll display detection all videos in media/ dir.
