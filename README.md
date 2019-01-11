@@ -56,7 +56,7 @@ Here is the [link to YouTube video](https://youtu.be/YASOovwds_A) detecting cars
 This steps downloads yolov2-tiny for voc dataset and converts to MIVision's openVX model 
 ```
 % cd trafficVision/model
-% ./prepareModel
+% ./prepareModel.sh
 ```
 
 **_2. MIVision Model Compilation_**
