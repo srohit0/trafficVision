@@ -60,7 +60,7 @@ if __name__ == '__main__' :
         if ret == False:
             break;
 
-         if ( iframe == 0 ):
+        if ( iframe == 0 ):
              cv2.resizeWindow(window_title, frame.shape[1], frame.shape[0])
 
         iframe = iframe + 1
