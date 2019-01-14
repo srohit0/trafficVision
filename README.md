@@ -1,5 +1,5 @@
 # Traffic Vision
-This app detects cars/buses in a live traffic at a phenomenal 50 frames/sec with HD resolution (1920x1080) using deep learning network [Yolo-V2](https://pjreddie.com/darknet/yolov2). The model unsed in the app is optimized for inferencing performnce on AMD-GPUs using [MIVisionX toolkit](https://gpuopen-professionalcompute-libraries.github.io/MIVisionX/).
+This app detects cars/buses in a live traffic at a phenomenal *50 frames/sec with HD resolution (1920x1080)* using deep learning network [Yolo-V2](https://pjreddie.com/darknet/yolov2). The model unsed in the app is optimized for inferencing performnce on AMD-GPUs using [MIVisionX toolkit](https://gpuopen-professionalcompute-libraries.github.io/MIVisionX/).
 
 [![Traffic Vision Animation](media/traffic_viosion.gif)](https://youtu.be/YASOovwds_A)
 
