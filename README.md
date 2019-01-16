@@ -118,4 +118,4 @@ Make sure you've infrastructure pre-requisites installed before you start portin
 1. [Tiny Yolo aka Darknet reference network](https://pjreddie.com/darknet/imagenet/#reference)
 1. [MiVisionX Setup](https://github.com/kiritigowda/MIVisionX-setup)
 1. [AMD OpenVX](https://gpuopen.com/compute-product/amd-openvx/)
-1. [Measuring Traffic Speed With Deep Learning Object Detection] (https://medium.com/datadriveninvestor/measuring-traffic-speed-with-deep-learning-object-detection-efc0bb9a3c57)
+1. [Measuring Traffic Speed With Deep Learning Object Detection](https://medium.com/datadriveninvestor/measuring-traffic-speed-with-deep-learning-object-detection-efc0bb9a3c57)
