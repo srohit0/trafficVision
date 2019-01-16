@@ -98,13 +98,15 @@ Make sure you've infrastructure pre-requisites installed before you start portin
 <img src="media/speed_detection_infrastructure.jpg" width=480>
 
 ## Developed and Tested on
-1. Hardware = AMD Ryzen Threadripper 1900X 8-Core Processor
-1. Accelerator = Radeon Instinct MI25 Accelerator 
-1. OS = Ubuntu 16.04 LTS
-1. Python 2.7
-1. MIVisionX 1.7.0
-1. AMD OpenVX 0.9.9
-1. GCC 5.4
+1. Hardware
+    1. AMD Ryzen Threadripper 1900X 8-Core Processor
+    1. Accelerator = Radeon Instinct MI25 Accelerator 
+1. Software
+    1. Ubuntu 16.04 LTS OS
+    1. Python 2.7
+    1. MIVisionX 1.7.0
+    1. AMD OpenVX 0.9.9
+    1. GCC 5.4
 
 ## Credit
 * **Schmitt, M**
@@ -116,3 +118,4 @@ Make sure you've infrastructure pre-requisites installed before you start portin
 1. [Tiny Yolo aka Darknet reference network](https://pjreddie.com/darknet/imagenet/#reference)
 1. [MiVisionX Setup](https://github.com/kiritigowda/MIVisionX-setup)
 1. [AMD OpenVX](https://gpuopen.com/compute-product/amd-openvx/)
+1. [Measuring Traffic Speed With Deep Learning Object Detection] (https://medium.com/datadriveninvestor/measuring-traffic-speed-with-deep-learning-object-detection-efc0bb9a3c57)
