@@ -109,9 +109,7 @@ Make sure you've infrastructure pre-requisites installed before you start portin
     1. GCC 5.4
 
 ## Credit
-* S, M
-* N G, K
-* R, R
+* MIVisionX Team
 
 ## References
 1. [yoloV2 paper](https://arxiv.org/pdf/1612.08242.pdf)
