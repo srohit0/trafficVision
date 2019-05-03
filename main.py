@@ -10,12 +10,21 @@
 # furnished to do so, subject to the following conditions:
 #
 # The above copyright notice and this permission notice shall be included in
+# copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
 
 # Description:
 #      Detect Vehicle using AMD MIVisionX Inferencing Engine.
 #
 from __future__ import print_function
-import os, time
+import os, timeit
 import argparse
 import numpy as np
 import cv2
@@ -53,6 +62,7 @@ if __name__ == '__main__' :
     if ( cap.isOpened() == False ):
         print ("Error: could not open video feed", feed);
 
+    startTime = timeit.default_timer()
     iframe = 0;
     while(cap.isOpened()):
 
@@ -77,13 +87,12 @@ if __name__ == '__main__' :
 
         if ( os.path.splitext(args.cam_ip)[1] == ".jpg"  ) :
             cap = cv2.VideoCapture(feed); # required for static jpg like stream in Bosch cams
-        #time.sleep(5)
 
+    elapsedTime = timeit.default_timer() - startTime
+    print ("Processed a total of ", iframe, "frames in ", elapsedTime, "micro sec with ", iframe/(elapsedTime*1e-6), "fps.");
     cap.release()
     cv2.destroyAllWindows()
-    print ("Processed a total of ", iframe, "frames");
 
     yoloNet.destroy();
-
 
 
