@@ -89,7 +89,6 @@ python create_yolo_caffemodel.py -m $yolocfgcaffe -w $yoloweight -o $yoloweightc
 mkdir -p nnirModel
 python /opt/rocm/mivisionx/model_compiler/python/caffe_to_nnir.py caffemodels/$filename.caffemodel ./nnirModel --input-dims 1,3,416,416
 
-
 ###################################################
 # Step 4: Convert NNIR to OpenVX format
 ###################################################
